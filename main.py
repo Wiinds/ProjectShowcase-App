@@ -4,10 +4,12 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
+st.title("Project-Showcase")
+
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.jpg", width=300)
+    st.image("images/photo.jpg", width=500)
     
 with col2:
     st.title("Jeremy Abraham")
@@ -34,8 +36,6 @@ with col3:
         #for dynamic weblink for each project instead of a static one
         #st.write(f"[Source Code]({row['url']})")
         
-        
-    
     
 with col4:
     for index, row in df[10:].iterrows():
