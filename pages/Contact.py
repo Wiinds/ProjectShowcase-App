@@ -11,7 +11,6 @@ with st.form(key="my_form"):
 
 
 
-        message = message + user_email
 
 
 
