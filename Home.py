@@ -14,7 +14,7 @@ with col1:
 with col2:
     st.title("Jeremy Abraham")
     
-    content = """Hello im Jeremy a junior Python Developer and Data Engineer. I specialize in harnessing data to drive significant business improvements and elevate customer experiences. With attention to detail, I transform intricate data into actionable solutions and insights. My technical prowess spans Python, SQL, Java, Excel, Tableau and advanced analytics, enabling businesses to make data informed decisions swiftly and effectively."""
+    content = """Hello im Jeremy a Junior Python Developer and Data Engineer. I specialize in harnessing data to drive significant business improvements and elevate customer experiences. With attention to detail, I transform intricate data into actionable solutions and insights. My technical prowess spans Python, SQL, Java, Excel, Tableau and advanced analytics, enabling businesses to make data informed decisions swiftly and effectively."""
     
     st.info(content)
 
